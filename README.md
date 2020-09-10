@@ -1,4 +1,34 @@
+![Image of Header](Images/WeatherAppHeader.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Weather App
+
+This WebApp was created to Display current Weather conditions. 
+
+You can make your search by City names. If you want to search a city located on the United States of America, you can make your search using the city name followed de state it is located. e.g. "Atlanta, Georgia", "Dallas, Texas", "Las Vegas, Nevada", etc. But if you want to search for a city outside the U.S., you can type the city name followed by the country. e.g. "New Delhi, India", "Manaus, Brazil", etc.
+
+The results will present to you:
+
+* Temperatures in Celsius
+* Current Conditions
+* Minimun and Maximun Temperature in Celsius
+* Wind Speed
+
+## Demo
+
+This is an example of the page with Results:
+
+![Demo Image](Images/WeatherAppDemo.png)
+
+## Technologies Used
+
+This App was created using Node.js, React, and it was bootstrapped using 'create-react-app'. The package Manager is yarn, and you can see below the instruction on how to run the scripts. It was also used the https://openweathermap.org/ API to access current weather data for any location on Earth including over 200,000 cities!
+Current weather is frequently updated based on global models and data from more than 40,000 weather stations.
+
+## Components
+
+Considering the simple, well-defined, and lightweight nature of the App, only a single component was created on the source of the project. If there's a future demand for scaling or improvement, aditional components can be added to vthe project.
 
 ## Available Scripts
 
@@ -66,3 +96,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
